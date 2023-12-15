@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    section {
+        @apply py-[75px];
+    }
+}
+
+@layer components {
+    .container {
+        @apply max-w-full w-[1440px] px-5 mx-auto;
+    }
+
+    .btn {
+        @apply bg-primaryColor py-[15px] px-[35px] rounded-[50px] text-white font-[600] mt-[38px];
+    }
+
+    .heading {
+        @apply text-[44px] leading-[54px] font-[700] text-headingColor;
+    }
+
+    .text_para {
+        @apply text-[18px] leading-[30px] font-[400] text-textColor mt-[18px];
+    }
+
+    body {
+        @apply bg-[url('./assets/images/mask.png')];
+        background-size: cover;
+        /* Add this line to handle background image sizing */
+    }
+
+    .hero-section {
+        @apply bg-[url('./assets/images/hero-bg.png')] bg-no-repeat bg-center bg-cover;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        @apply w-full;
+    }
+
+    section {
+        @apply py-[35px];
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .heading {
+        @apply text-[26px] leading-[36px];
+    }
+
+    .text_para {
+        @apply text-[16px] leading-7 mt-3;
+    }
+
+    .header {
+        @apply bg-[url('./assets/images/mask.png')];
+        background-size: cover;
+        /* Add this line to handle background image sizing */
+    }
+}
+
+index.css mein yeh daalna .swiper-pagination-bullet {
+    width: 12px !important;
+    height: 12px !important;
+    border: 1px solid #181a1e !important;
+    opacity: 100% !important;
+    bacground: #fff !important;
+
+}
+
+.swiper-pagination-bullet-active {
+    background: #0067ff !important;
+    border: none !important;
+
+}
+
+.swiper {
+    padding-bottom: 70px !important;
+}
+
+.swiper-slide.slider-slide-next {
+    background: #0067ff !important;
+    barder-radius: 12px !important;
+    box-shadow: 0px 20px 70px rgba(0, 103, 255, 0.3) !important;
+}
+
+.swiper-slide.swiper-slide-next h4,
+.swiper-slide.swiper-slide-next p {
+    color: #fff !important;
+}
+
+.swiper-pagination {
+    top: 90% !important;
+}
