@@ -10,19 +10,19 @@ import {
 
 const socialLinks = [
   {
-    path: "https://www.youtube.com/c/CodingWithMuhib",
+    path: "",
     icon: <AiFillYoutube className="group-hover:text-white w-4 h-5" />,
   },
   {
-    path: "https://github.com/codingwithmuhib",
+    path: "",
     icon: <AiFillGithub className="group-hover:text-white w-4 h-5" />,
   },
   {
-    path: "https://www.instagram.com/muhib160.official/",
+    path: "",
     icon: <AiOutlineInstagram className="group-hover:text-white w-4 h-5" />,
   },
   {
-    path: "https://www.linkedin.com/in/codingwithmuhib/",
+    path: "",
     icon: <RiLinkedinFill className="group-hover:text-white w-4 h-5" />,
   },
 ];
