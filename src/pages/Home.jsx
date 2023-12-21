@@ -35,7 +35,7 @@ const Home = () => {
                   vanquished will also exist. The selfish desire for peace gives
                   rise to war. And hatred is born in order to protect love.
                 </p>
-                <button className="btn"> Request an Appointment</button>
+                <Link to="/contact"><button className="btn"> Request an Appointment</button></Link>
               </div>
               {/* ===== hero counter ====== */}
 
